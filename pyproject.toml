@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hm-2-web"
+version = "0.1.0"
+description = ""
+authors = ["OlegDovhyi <oleg.dovgyy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyowm = "3.3.0"
+requests = ">=2.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
